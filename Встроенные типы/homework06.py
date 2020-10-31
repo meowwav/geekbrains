@@ -66,27 +66,27 @@ while checker.lower() != "n":
 
     checker = input("Add one more product? Y/N ")
 
-new_dict = {
+analytics_dict = {
     "name" : [],
     "price" : [],
     "count" : [],
     "unit" : []
 }
 
-print("new_dict")
+print("Product analytics)
 
 counter = 0
 
 for articules in goods:
 
-    new_dict["name"].append(goods[counter][1]["name"])
-    new_dict["price"].append(goods[counter][1]["price"])
-    new_dict["count"].append(goods[counter][1]["count"])
-    new_dict["unit"].append(goods[counter][1]["unit"])
+    analytics_dict["name"].append(goods[counter][1]["name"])
+    analytics_dict["price"].append(goods[counter][1]["price"])
+    analytics_dict["count"].append(goods[counter][1]["count"])
+    analytics_dict["unit"].append(goods[counter][1]["unit"])
 
     counter += 1
 
-print(new_dict)
+print(analytics_dict)
 
 
 
