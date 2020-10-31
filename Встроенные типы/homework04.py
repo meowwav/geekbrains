@@ -5,4 +5,4 @@
 string_list = input("Введети строку из нескольких слов, разделенных пробелами >>> ").split()
 
 for word in string_list:
-    print(word) if len(word) <= 10 else print(word[0:10])
+    print(word[0:10])
